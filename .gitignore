@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Reports (运行时生成)
+reports/
+*.log
+
+# Cache
+.cache/
+*.cache
+
+# Environment / Secrets
+.env
+*.env
+!assets/config_template.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
